@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/payment.css" />
+        <link rel="stylesheet" href="./css/datas.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>顧客資料</title>
+    </head>
+    <body>
+        <!-- 設定Nav Bar -->
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="#">
+                    <img src="./src/logo.png" alt="" />
+                </a>
+            </div>
+            <div class="pages">
+                <a href="#" class="main-page"> <p>首頁</p> </a>
+                <a href="#" class="main-page"><p>所有商品</p></a>
+                <a href="#" class="main-page"><p>關於我們</p></a>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-cart-shopping">cart</i>
+
+                <i class="fa-solid fa-heart"></i>
+            </div>
+        </div>
+
+        <!-- 付款流程 -->
+
+        <div class="payment-process">
+            <div class="cart"><p>購物車</p></div>
+            <div class="customer-data" style="background-color: aqua"><p>填寫資料</p></div>
+            <div class="order-data"><p>訂單確認</p></div>
+            <div class="line"></div>
+        </div>
+
+        <!-- 填寫顧客資料 -->
+
+        <div class="customer-datas">
+            <div class="title">
+                <p>顧客資料</p>
+            </div>
+            <div class="fill-data">
+                <label for="delever-location"> 顧客名字 </label>
+                <input type="text" />
+            </div>
+            <div class="fill-data">
+                <label for="delever-location"> 電話號碼 </label>
+                <input type="text" />
+            </div>
+            <div class="fill-data">
+                <label for="delever-location"> 電子信箱 </label>
+                <input type="text" />
+            </div>
+            <div class="fill-data">
+                <label for="delever-location"> 訂單備註 </label>
+                <input type="text" />
+            </div>
+        </div>
+
+        <!-- 填寫送貨資料 -->
+
+        <div class="customer-datas">
+            <div class="title">
+                <p>送貨資料</p>
+            </div>
+            <div class="fill-data">
+                <label for="delever-location"> 收件人名字 </label>
+                <input type="text" />
+            </div>
+            <div class="fill-data">
+                <label for="delever-location"> 收件人連絡電話 </label>
+                <input type="text" />
+            </div>
+            <div class="fill-data">
+                <label for="delever-location"> 收件地址 </label>
+                <div class="selections">
+                    <select name="address" id="address">
+                        <option value="Taiwan">台北</option>
+                        <option value="Taiwan">台中</option>
+                        <option value="Taiwan">台南</option>
+                    </select>
+                    <select name="dist" id="dist">
+                        <option value="district">北區</option>
+                        <option value="district">中區</option>
+                        <option value="district">南區</option>
+                    </select>
+                </div>
+                <input type="text" />
+            </div>
+        </div>
+        <button class="data-sent">送出訂單</button>
+        <br />
+        <hr />
+
+        <!-- 聯絡方式 copyright -->
+
+        <div class="footer">
+            <div class="footer-left">
+                <p class="contact-us">聯絡我們</p>
+                <p class="phone">電話:01-1234567</p>
+                <p class="cellphone">手機:0912123456</p>
+                <p class="line">LINE:a123456</p>
+            </div>
+            <div class="footer-right">
+                <p class="add-line-friend">LINE加入好友</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="copytright">2023 © Boris Hu</p>
+        </div>
+    </body>
+</html>

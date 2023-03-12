@@ -1,0 +1,90 @@
+.customer-datas {
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 70%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 3px solid gray;
+}
+
+.customer-datas .title {
+  border-bottom: 3px solid gray;
+  width: 100%;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.customer-datas .title p {
+  font-size: 2rem;
+  margin: 1%;
+}
+
+.customer-datas .fill-data {
+  border: 12px soild black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  margin: auto;
+  font-size: 2rem;
+  margin-top: 2%;
+}
+
+.customer-datas .fill-data input {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.customer-datas .fill-data .selections {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.customer-datas .fill-data .selections select {
+  margin-top: 1%;
+  width: 48%;
+}
+
+.data-sent {
+  display: block;
+  width: 70%;
+  padding: 1%;
+  background-color: lightseagreen;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  margin-top: 3%;
+  margin: auto;
+  cursor: pointer;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  border-radius: 0.5rem;
+}
+
+.data-sent:hover {
+  overflow: hidden;
+  color: cornflowerblue;
+  background-color: blueviolet;
+}
