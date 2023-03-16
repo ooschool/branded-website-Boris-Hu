@@ -1,0 +1,33 @@
+.nav-bar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .logo {
+        width: 10%;
+        img {
+            width: 50%;
+        }
+    }
+    .pages {
+        width: 60%;
+        display: flex;
+        a {
+            margin: 0 3%;
+            text-decoration: none;
+            p {
+                font-size: 1.5rem;
+                font-weight: 400;
+                font-family: Arial, Helvetica, sans-serif;
+                color: black;
+                transition: all ease 0.3s;
+            }
+        }
+        :hover {
+            color: aqua;
+        }
+    }
+}

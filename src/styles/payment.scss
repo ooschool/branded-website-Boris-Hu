@@ -1,0 +1,182 @@
+// 付款流程
+
+.payment-process {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    .cart,
+    .customer-data,
+    .order-data {
+        background-color: white;
+        font-size: 2rem;
+        width: 12rem;
+        height: 9rem;
+        border: 3px solid lightgray;
+        border-radius: 50rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        z-index: 1;
+    }
+    .line {
+        width: 70%;
+        height: 0.2rem;
+        background-color: lightgray;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+    }
+}
+
+// 訂單內容
+
+div.order-content {
+    margin: auto;
+    margin-top: 3%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid gray;
+    .title {
+        width: 100%;
+        background-color: lightgrey;
+        text-align: center;
+        p {
+            font-size: 2rem;
+            margin: 1%;
+        }
+    }
+    .top-bar {
+        width: 80%;
+        margin: -1% auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            font-size: 1.5rem;
+        }
+        .detail {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+// 商品卡
+
+.product-card {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 1% 0;
+    background-color: cornsilk;
+    .product-img {
+        display: flex;
+        align-items: center;
+        img {
+            width: 35%;
+        }
+        p {
+            font-size: 3rem;
+            margin-left: 5%;
+        }
+    }
+    .product-data {
+        width: 45%;
+        margin-right: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+            font-size: 2rem;
+        }
+        .amount {
+            display: flex;
+            width: 30%;
+            justify-content: space-around;
+        }
+    }
+}
+
+.selections {
+    display: flex;
+
+    // 付款及運送
+
+    .deliver {
+        margin-left: 14.8%;
+        margin-top: 3%;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        border: 3px solid gray;
+        .title {
+            width: 100%;
+            background-color: lightgrey;
+            text-align: center;
+            margin-bottom: 5%;
+            p {
+                font-size: 2rem;
+                margin: 1%;
+            }
+        }
+        .drop-list {
+            font-size: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+            select {
+                width: 50%;
+                margin: 3% 0;
+            }
+        }
+    }
+
+    // 訂單資訊
+
+    .order-detail {
+        margin-left: 4.8%;
+        margin-top: 3%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        border: 3px solid gray;
+        .title {
+            width: 100%;
+            background-color: lightgrey;
+            text-align: center;
+            margin-bottom: 5%;
+            p {
+                font-size: 2rem;
+                margin: 1%;
+            }
+        }
+    }
+    .total-price {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        font-size: 2rem;
+    }
+    .pay-total {
+        width: 80%;
+        margin: auto;
+        background-color: purple;
+        border: none;
+        font-size: 2rem;
+        color: white;
+        border-radius: 1rem;
+        padding: 3%;
+    }
+}
