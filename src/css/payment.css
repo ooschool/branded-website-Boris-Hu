@@ -282,13 +282,18 @@ div.order-content .top-bar .detail p {
   font-size: 2rem;
 }
 
-.selections .pay-total {
-  width: 80%;
-  margin: auto;
+.selections .outer-pay-total {
+  margin: 2% auto;
+  width: 70%;
+}
+
+.selections .outer-pay-total .pay-total {
   background-color: purple;
+  width: 100%;
   border: none;
   font-size: 2rem;
   color: white;
   border-radius: 1rem;
   padding: 3%;
+  cursor: pointer;
 }

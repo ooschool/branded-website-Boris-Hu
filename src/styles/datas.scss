@@ -40,20 +40,27 @@
     }
 }
 
-.data-sent {
-    display: block;
-    width: 70%;
-    padding: 1%;
-    background-color: lightseagreen;
-    border: none;
-    color: white;
-    font-size: 2rem;
-    margin-top: 3%;
-    margin: auto;
-    cursor: pointer;
-    transition: all ease 0.3s;
-    border-radius: 0.5rem;
+.outer-btn {
+    text-decoration: none;
+    .data-sent {
+        display: block;
+        width: 70%;
+        padding: 1%;
+        background-color: lightseagreen;
+        border: none;
+        color: white;
+        font-size: 2rem;
+        margin-top: 3%;
+        margin: auto;
+        cursor: pointer;
+        transition: all ease 0.3s;
+        border-radius: 0.5rem;
+        p {
+            margin: 0;
+        }
+    }
 }
+
 .data-sent:hover {
     overflow: hidden;
     color: cornflowerblue;

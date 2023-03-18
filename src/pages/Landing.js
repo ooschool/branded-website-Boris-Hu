@@ -1,118 +1,114 @@
 import React from 'react';
 import '../css/landing.css';
 import '../css/normalize.css';
-import Navbar from './Navbar';
-import Copyright from './Copyright';
 
 const Landing = () => {
     return (
         <div>
-            <Navbar />
-
-            <div class='customer-cart'>
-                <p class='shopping-cart'>購物車</p>
-                <div class='shopping-cart-content'>
+            <div className='customer-cart'>
+                <p className='shopping-cart'>購物車</p>
+                <div className='shopping-cart-content'>
                     <img src={require('../img/powder.png')} alt='' />
-                    <div class='product-desc'>
-                        <p class='cart-product-price'>NT$ 100</p>
-                        <div class='delete-icon'>刪除</div>
-                        <div class='cart-calculate'>
-                            <p class='cart-product-amount'>數量：</p>
-                            <p class='decrease'>-</p>
-                            <p class='cart-amount'>2</p>
-                            <p class='increase'>+</p>
+                    <div className='product-desc'>
+                        <p className='cart-product-price'>NT$ 100</p>
+                        <div className='delete-icon'>刪除</div>
+                        <div className='cart-calculate'>
+                            <p className='cart-product-amount'>數量：</p>
+                            <p className='decrease'>-</p>
+                            <p className='cart-amount'>2</p>
+                            <p className='increase'>+</p>
                         </div>
                     </div>
                 </div>
-                <div class='total-payment'>
+                <div className='total-payment'>
                     <p>總金額：600</p>
-                    <p class='total-price'></p>
+                    <p className='total-price'></p>
                     <hr />
                 </div>
-                <button class='cart-pay'>結帳</button>
+                <button className='cart-pay'>結帳</button>
             </div>
 
             {/* 設定圖片Slider  */}
 
-            <div class='slider'>
+            <div className='slider'>
                 <img src={require('../img/bg.png')} alt='' />
             </div>
 
             {/* 介紹商品  */}
-            <div class='all-product'>
+            <div id='all-product-show' className='all-product'>
                 所有商品
                 <hr />
             </div>
 
             {/* 搜尋商品  */}
-            <div class='search-bar'>
-                <input type='text' placeholder='搜尋' class='search' />
+            <div className='search-bar'>
+                <input type='text' placeholder='搜尋' className='search' />
 
                 <select name='sort-price' id='sort'>
                     <option value='low'>價格低→高</option>
                     <option value='low'>價格高→低</option>
                 </select>
 
-                <i class='fa-solid fa-grip-lines'></i>
+                <i className='fa-solid fa-grip-lines'></i>
             </div>
 
             {/* 商品卡片(直式)  */}
-            <div class='product-content'>
+            <div className='product-content'>
                 {/* 單一商品圖卡  */}
-                <div class='product-item'>
-                    <div class='product-image'>
+                <div className='product-item'>
+                    <div className='product-image'>
                         <img src={require('../img/powder.png')} alt='' />
                     </div>
-                    <div class='product-name'>
-                        <p class='product-name'>產品名稱</p>
+                    <div className='product-name'>
+                        <p className='product-name'>產品名稱</p>
                     </div>
-                    <div class='content'>
-                        <div class='product-describe'>
-                            <p class='product-price'>$NT 100</p>
-                            <p class='product-discount'>$NT 120</p>
+                    <div className='content'>
+                        <div className='product-describe'>
+                            <p className='product-price'>$NT 100</p>
+                            <p className='product-discount'>$NT 120</p>
                         </div>
 
-                        <div class='btn'>
-                            <button class='add-cart'>加入購物車</button>
-                            <button class='product-buy'>直接購買</button>
+                        <div className='btn'>
+                            <button className='add-cart'>加入購物車</button>
+                            <button className='product-buy'>直接購買</button>
                         </div>
                     </div>
                 </div>
-                <div class='product-item'>
-                    <div class='product-image'>
+                <div className='product-item'>
+                    <div className='product-image'>
                         <img src={require('../img/powder.png')} alt='' />
                     </div>
-                    <div class='product-name'>
-                        <p class='product-name'>產品名稱</p>
+                    <div className='product-name'>
+                        <p className='product-name'>產品名稱</p>
                     </div>
-                    <div class='content'>
-                        <div class='product-describe'>
-                            <p class='product-price'>$NT 100</p>
-                            <p class='product-discount'>$NT 120</p>
+                    <div className='content'>
+                        <div className='product-describe'>
+                            <p className='product-price'>$NT 100</p>
+                            <p className='product-discount'>$NT 120</p>
                         </div>
 
-                        <div class='btn'>
-                            <button class='add-cart'>加入購物車</button>
-                            <button class='product-buy'>直接購買</button>
+                        <div className='btn'>
+                            <button className='add-cart'>加入購物車</button>
+                            <button className='product-buy'>直接購買</button>
                         </div>
                     </div>
                 </div>
-                <div class='product-item'>
-                    <div class='product-image'>
+                <div className='product-item'>
+                    <div className='product-image'>
                         <img src={require('../img/powder.png')} alt='' />
                     </div>
-                    <div class='product-name'>
-                        <p class='product-name'>產品名稱</p>
+                    <div className='product-name'>
+                        <p className='product-name'>產品名稱</p>
                     </div>
-                    <div class='content'>
-                        <div class='product-describe'>
-                            <p class='product-price'>$NT 100</p>
-                            <p class='product-discount'>$NT 120</p>
+                    <div className='content'>
+                        <div className='product-describe'>
+                            <p className='product-price'>$NT 100</p>
+                            <p className='product-discount'>$NT 120</p>
                         </div>
 
-                        <div class='btn'>
-                            <button class='add-cart'>加入購物車</button>
-                            <button class='product-buy'>直接購買</button>
+                        <div className='btn'>
+                            <button className='add-cart'>加入購物車</button>
+                            <button className='product-buy'>直接購買</button>
                         </div>
                     </div>
                 </div>
@@ -120,27 +116,27 @@ const Landing = () => {
 
             {/*  商品lightbox */}
 
-            <div class='product-light-box'>
+            <div className='product-light-box'>
                 <img src={require('../img/powder.png')} alt='' />
-                <div class='product-lightbox-description'>
-                    <div class='product-describtion'>
-                        <p class='product-price-lightbox'>Price:$NT100</p>
-                        <p class='product-intro-lightbox'>
+                <div className='product-lightbox-description'>
+                    <div className='product-describtion'>
+                        <p className='product-price-lightbox'>Price:$NT100</p>
+                        <p className='product-intro-lightbox'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, fuga eveniet? Explicabo
                             voluptatum perferendis ea eos. Similique sit deleniti eum.
                         </p>
-                        <p class='product-share-lightbox'>分享到：</p>
+                        <p className='product-share-lightbox'>分享到：</p>
                     </div>
-                    <div class='buy-product'>
-                        <div class='product-amount'>
+                    <div className='buy-product'>
+                        <div className='product-amount'>
                             <p>數量:</p>
-                            <p class='product-decrease'>-</p>
-                            <p class='amount'>2</p>
-                            <p class='product-increase'>+</p>
+                            <p className='product-decrease'>-</p>
+                            <p className='amount'>2</p>
+                            <p className='product-increase'>+</p>
                         </div>
-                        <div class='product-buy-btn'>
-                            <button class='btn'>Add Cart</button>
-                            <button class='btn'>Buy</button>
+                        <div className='product-buy-btn'>
+                            <button className='btn'>Add Cart</button>
+                            <button className='btn'>Buy</button>
                         </div>
                     </div>
                 </div>
@@ -148,10 +144,10 @@ const Landing = () => {
 
             {/* 關於我們介紹  */}
 
-            <div class='about-us'>
-                <p class='about-title'>關於我們</p>
+            <div className='about-us'>
+                <p className='about-title'>關於我們</p>
                 <hr />
-                <p class='about-content'>
+                <p className='about-content'>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores alias, adipisci provident
                     placeat quos exercitationem tempora optio distinctio ea minima cumque nulla veritatis ratione rerum
                     quod natus nisi nemo praesentium, quam a corrupti qui! Dolorem nulla reprehenderit perferendis
@@ -176,7 +172,6 @@ const Landing = () => {
             </div>
 
             <hr />
-            <Copyright />
         </div>
     );
 };

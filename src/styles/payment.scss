@@ -169,14 +169,18 @@ div.order-content {
         width: 80%;
         font-size: 2rem;
     }
-    .pay-total {
-        width: 80%;
-        margin: auto;
-        background-color: purple;
-        border: none;
-        font-size: 2rem;
-        color: white;
-        border-radius: 1rem;
-        padding: 3%;
+    .outer-pay-total {
+        margin: 2% auto;
+        width: 70%;
+        .pay-total {
+            background-color: purple;
+            width: 100%;
+            border: none;
+            font-size: 2rem;
+            color: white;
+            border-radius: 1rem;
+            padding: 3%;
+            cursor: pointer;
+        }
     }
 }
