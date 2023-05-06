@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zt-TW">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/order-list.css" />
+        <title>訂單內容</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- Header Start -->
+
+            <div class="header">
+                <div id="navigation-bar" class="navigation-bar">
+                    <a href="#!" class="logo">
+                        <h1>LOGO</h1>
+                    </a>
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="#product-cards">所有商品</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">關於我們</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">聯絡資訊</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#shppoing-cart">購物車</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Header end -->
+
+            <!-- Process Start -->
+
+            <div class="hero hero-bg-white process-rounds">
+                <div class="row">
+                    <div class="col3-lg"><h2 class="cart">購物車</h2></div>
+                    <div class="col3-lg"><h2 class="fill-data">填寫內容</h2></div>
+                    <div class="col3-lg"><h2 class="order-confirm">訂單確認</h2></div>
+                    <div class="center-line"></div>
+                </div>
+            </div>
+
+            <!-- Process end -->
+
+            <!-- Order List Start -->
+
+            <div class="container hero-bg-white order-container">
+                <h2 class="main-title">訂單內容</h2>
+                <div class="row product-title">
+                    <div class="col2-lg">
+                        <h3 class="product-name">商品</h3>
+                    </div>
+                    <div class="col2-lg name-sort">
+                        <div class="col3-lg">
+                            <h3>價格</h3>
+                        </div>
+                        <div class="col3-lg">
+                            <h3>數量</h3>
+                        </div>
+                        <div class="col3-lg">
+                            <h3>小計</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-item">
+                    <div class="row">
+                        <div class="col2-lg buy-list">
+                            <div class="img-container">
+                                <div class="img"></div>
+                            </div>
+                            <h3 class="product-name">商品名稱</h3>
+                        </div>
+                        <div class="col2-lg list-sort">
+                            <h3 class="order-price">NT$100</h3>
+                            <div class="amount">
+                                <button class="plus">＋</button>
+                                <h3 class="number">2</h3>
+                                <button class="minus">－</button>
+                            </div>
+                            <h3 class="total-price">NT$200</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-item">
+                    <div class="row">
+                        <div class="col2-lg buy-list">
+                            <div class="img-container">
+                                <div class="img"></div>
+                            </div>
+                            <h3 class="product-name">商品名稱</h3>
+                        </div>
+                        <div class="col2-lg list-sort">
+                            <h3 class="order-price">NT$100</h3>
+                            <div class="amount">
+                                <button class="plus">＋</button>
+                                <h3 class="number">2</h3>
+                                <button class="minus">－</button>
+                            </div>
+                            <h3 class="total-price">NT$200</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-item">
+                    <div class="row">
+                        <div class="col2-lg buy-list">
+                            <div class="img-container">
+                                <div class="img"></div>
+                            </div>
+                            <h3 class="product-name">商品名稱</h3>
+                        </div>
+                        <div class="col2-lg list-sort">
+                            <h3 class="order-price">NT$100</h3>
+                            <div class="amount">
+                                <button class="plus">＋</button>
+                                <h3 class="number">2</h3>
+                                <button class="minus">－</button>
+                            </div>
+                            <h3 class="total-price">NT$200</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order List end -->
+
+            <!-- Section of Deliever & Order Infos Start -->
+
+            <div class="container hero-bg-white">
+                <div class="deliever">
+                    <h2 class="main-title">付款及運送</h2>
+                    <div class="deliever-container">
+                        <div class="location">
+                            <h4>送貨地點</h4>
+                            <select name="location-address" id="location-address">
+                                <option value="">台北</option>
+                                <option value="">台中</option>
+                                <option value="">台南</option>
+                            </select>
+                        </div>
+                        <div class="cargo">
+                            <div class="cargo-method">
+                                <h4>送貨地點</h4>
+                                <select name="cargo-address" id="cargo-address">
+                                    <option value="">貨運</option>
+                                    <option value="">自取</option>
+                                    <option value="">代收</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="pay-order">
+                            <h4>付款方式</h4>
+                            <select name="pay-method" id="pay-method">
+                                <option value="">轉帳</option>
+                                <option value="">信用卡</option>
+                                <option value="">貨到付款</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-infos">
+                    <h2 class="main-title">訂單資訊</h2>
+                    <div class="info-content">
+                        <div class="total-price">
+                            <h4>總價：</h4>
+                            <h4>NT$ 600</h4>
+                        </div>
+                        <div class="deliever-price">
+                            <h4>運費：</h4>
+                            <h4>NT$ 60</h4>
+                        </div>
+                        <hr />
+                        <div class="total-pay">
+                            <h4>合計：</h4>
+                            <h4>NT$ 660</h4>
+                        </div>
+                    </div>
+
+                    <button class="send-orders">結帳</button>
+                </div>
+            </div>
+
+            <!-- Section of Deliever & Order Infos end -->
+
+            <!-- Footer Start -->
+
+            <div id="contact" class="hero hero-bg-grey">
+                <div class="container">
+                    <div class="row">
+                        <div class="col2-lg">
+                            <div class="contact-info">
+                                <h4 class="subtitle">聯絡我們</h4>
+                                <a href="#!" class="phone">電話：01-123-4567</a>
+                                <a href="#!" class="phone">手機：0912-123-456</a>
+                                <a href="#!" class="line-friend">LINE：a123456@gmai.co</a>
+                            </div>
+                        </div>
+                        <div class="col2-lg">
+                            <a href="#!" class="add-line">LINE加入好友</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer End -->
+        </div>
+    </body>
+</html>

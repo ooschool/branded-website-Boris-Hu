@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zt-TW">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>SPA</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- Header Start -->
+
+            <div class="header">
+                <div id="navigation-bar" class="navigation-bar">
+                    <a href="#!" class="logo">
+                        <h1>LOGO</h1>
+                    </a>
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="#product-cards">所有商品</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">關於我們</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">聯絡資訊</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#shppoing-cart">購物車</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Header end -->
+
+            <!-- Slider Start -->
+
+            <div id="slider" class="slider">
+                <div class="left-mask"></div>
+                <div class="right-mask"></div>
+                <div class="slider-img">
+                    <!-- <div class="img"></div> -->
+                    <img src="./src/slider/my23-carryover-tall-hero-desktop.webp" alt="" />
+                </div>
+            </div>
+
+            <!-- Slider end -->
+
+            <!-- Shopping Cart Start -->
+
+            <div id="shopping-cart" class="shppoing-cart">
+                <div class="cart-title">購物車</div>
+                <div class="cart-content">
+                    <div class="img-container">
+                        <div class="img"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col2-lg">
+                            <h3 class="price">NT$100</h3>
+                        </div>
+                        <div class="col2-lg">
+                            <button class="del-btn">刪除</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col2-lg"><h3 class="amount-title">數量</h3></div>
+                        <div class="col2-lg choose-mount">
+                            <button id="increase" class="amount-btn">–</button>
+                            <div class="amount-number">2</div>
+                            <button id="decrease" class="amount-btn">＋</button>
+                        </div>
+                    </div>
+                    <div class="total-price">
+                        <h4 class="total-title">總金額：</h4>
+                        <h4 class="total-pay">$600</h4>
+                    </div>
+                    <hr />
+                    <div class="pay-btn">
+                        <button class="sent-order">結帳</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shopping Cart end -->
+
+            <!-- Products Start -->
+
+            <div id="product-cards" class="hero hero-bg-grey">
+                <div class="container">
+                    <div class="section-intro">
+                        <h1 class="title">所有商品</h1>
+                        <hr />
+                    </div>
+                    <div class="item-list-style">
+                        <div class="col2-lg">
+                            <input class="search-input" type="text" placeholder="搜尋商品" />
+                            <button class="search-btn btn">搜尋</button>
+                        </div>
+                        <div class="col2-lg">
+                            <select class="price-sort" name="" id="">
+                                <option value="">價格高>低</option>
+                                <option value="">價格低>高</option>
+                            </select>
+                            <div class="show-item">
+                                <div class="square">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="rectangle">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col3-lg">
+                            <div class="img-container">
+                                <div class="img"></div>
+                            </div>
+                            <div class="item-des">
+                                <div class="product-price">
+                                    <h2>Product</h2>
+                                    <h3>$NT 100</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, deserunt!</p>
+                                </div>
+                                <div class="btn-group">
+                                    <div class="btn">Add Cart</div>
+                                    <div class="btn">Buy</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col3-lg">
+                            <div class="img-container">
+                                <div class="img"></div>
+                            </div>
+                            <div class="item-des">
+                                <div class="product-price">
+                                    <h2>Product</h2>
+                                    <h3>$NT 100</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, deserunt!</p>
+                                </div>
+                                <div class="btn-group">
+                                    <div class="btn">Add Cart</div>
+                                    <div class="btn">Buy</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col3-lg">
+                            <div class="img-container">
+                                <div class="img"></div>
+                            </div>
+                            <div class="item-des">
+                                <div class="product-price">
+                                    <h2>Product</h2>
+                                    <h3>$NT 100</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, deserunt!</p>
+                                </div>
+                                <div class="btn-group">
+                                    <div class="btn">Add Cart</div>
+                                    <div class="btn">Buy</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col3-lg">
+                            <div class="img-container">
+                                <div class="img"></div>
+                            </div>
+                            <div class="item-des">
+                                <div class="product-price">
+                                    <h2>Product</h2>
+                                    <h3>$NT 100</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, deserunt!</p>
+                                </div>
+                                <div class="btn-group">
+                                    <div class="btn">Add Cart</div>
+                                    <div class="btn">Buy</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col3-lg">
+                            <div class="img-container">
+                                <div class="img"></div>
+                            </div>
+                            <div class="item-des">
+                                <div class="product-price">
+                                    <h2>Product</h2>
+                                    <h3>$NT 100</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, deserunt!</p>
+                                </div>
+                                <div class="btn-group">
+                                    <div class="btn">Add Cart</div>
+                                    <div class="btn">Buy</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col3-lg">
+                            <div class="img-container">
+                                <div class="img"></div>
+                            </div>
+                            <div class="item-des">
+                                <div class="product-price">
+                                    <h2>Product</h2>
+                                    <h3>$NT 100</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, deserunt!</p>
+                                </div>
+                                <div class="btn-group">
+                                    <div class="btn">Add Cart</div>
+                                    <div class="btn">Buy</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products end -->
+
+            <!-- About Us Start -->
+
+            <div id="about" class="hero hero-bg-grey">
+                <div class="mask-cover"></div>
+                <div class="container">
+                    <div class="background-img"></div>
+                    <div class="section-intro">
+                        <h1 class="title">關於我們</h1>
+                        <hr />
+                    </div>
+                    <div class="desc">
+                        <p class="about-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, alias, dolorum officia sint
+                            a quos nulla recusandae ad nemo suscipit esse perspiciatis perferendis quae quaerat
+                            deleniti! Doloremque, odio itaque voluptatibus incidunt facilis dignissimos sapiente quis
+                            vitae dicta quia praesentium tempore quo corporis nihil nam tempora provident molestias
+                            excepturi? Doloribus molestiae explicabo numquam facere soluta hic, sapiente debitis nemo
+                            excepturi atque velit vitae molestias earum amet quae sit illo. Nihil eius perferendis
+                            sapiente iure consequuntur, optio omnis dolorum libero rerum, necessitatibus officia dolorem
+                            molestias deserunt laborum laboriosam corrupti impedit tenetur odit! Nam enim,
+                            exercitationem delectus at ad quidem laborum placeat tempora?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About us end -->
+
+            <!-- Footer Start -->
+
+            <div id="contact" class="hero hero-bg-grey">
+                <div class="container">
+                    <div class="row">
+                        <div class="col2-lg">
+                            <div class="contact-info">
+                                <h4 class="subtitle">聯絡我們</h4>
+                                <a href="#!" class="phone">電話：01-123-4567</a>
+                                <a href="#!" class="phone">手機：0912-123-456</a>
+                                <a href="#!" class="line-friend">LINE：a123456@gmai.co</a>
+                            </div>
+                        </div>
+                        <div class="col2-lg">
+                            <a href="#!" class="add-line">LINE加入好友</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer End -->
+
+            <!-- Copyright Start -->
+
+            <div class="copyright">
+                <p>© Copyright 2023 All rights reserved</p>
+            </div>
+            <!-- Copyright end -->
+        </div>
+    </body>
+</html>
